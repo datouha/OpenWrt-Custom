@@ -22,3 +22,5 @@ git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone https://github.com/SuperArilo/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/Firsgith/luci-app-wolplus.git package/luci-app-wolplus
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git alist https://github.com/sbwml/luci-app-alist' >>feeds.conf.default
